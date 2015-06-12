@@ -59,22 +59,30 @@
   <math|\<delta\>\<gtr\>0>, <math|\<beta\>+\<delta\> \<gtr\> \<beta\>>. So
   suppose <math|\<alpha\>\<less\>\<beta\>>.
 
-  Existence: Consider the set <math|\<beta\> - \<alpha\>> (the complement)
-  which exists by comprehension. By AC, this is well-orderable, hence
-  isomorphic to some ordinal <math|\<delta\>> under that ordering <math|R>.
-  This allows us to construct a well-ordering of the set <math|\<beta\>> as
-  <math|\<alpha\>+\<delta\>>, where the ordering on <math|\<alpha\>> is the
-  ordinary <math|\<in\>> relation, and the ordering <math|R> for elements of
-  the set <math|\<beta\>-\<alpha\>>. Thus as we've constructed it, the set
-  <math|\<alpha\>+\<delta\>> is well-ordered and has the same elements as
-  <math|\<beta\>> and hence must be isomorphic to <math|\<beta\>>.
+  Existence: [NEEDS WORK] Consider the set <math|\<beta\> - \<alpha\>> (the
+  complement) which exists by comprehension. By AC, this is well-orderable,
+  hence isomorphic to some ordinal <math|\<delta\>> under that ordering
+  <math|R>. This allows us to construct a well-ordering of the set
+  <math|\<beta\>> as <math|\<alpha\>+\<delta\>>, where the ordering on
+  <math|\<alpha\>> is the ordinary <math|\<in\>> relation, and the ordering
+  <math|R> for elements of the set <math|\<beta\>-\<alpha\>>. Thus as we've
+  constructed it, the set <math|\<alpha\>+\<delta\>> is well-ordered and has
+  the same elements as <math|\<beta\>>. [BUT WHY IS IT NECESSARILY ISOMORPHIC
+  TO <math|\<beta\>>?]
 
   Uniqueness: Suppose <math|\<alpha\>+\<delta\><rsub|1>=><math|\<alpha\>+\<delta\><rsub|2>=\<beta\>>.
   Then by (a), <math|\<delta\><rsub|1>\<nless\>\<delta\><rsub|2>> and
   <math|\<delta\><rsub|2>\<nless\>\<delta\><rsub|1>>, hence
   <math|\<delta\><rsub|1>=\<delta\><rsub|2>>.
 
-  \;
+  3. <with|font-shape|italic|(a) Show that if <math|\<gamma\>\<gtr\>0>, then
+  <math|\<alpha\>\<less\>\<beta\>> implies that <math|\<gamma\>\<cdot\>
+  \<alpha\> \<less\> \<gamma\>\<cdot\> \<beta\>> and
+  <math|\<alpha\>\<cdot\>\<gamma\>\<leqslant\> \<beta\>\<cdot\> \<gamma\>>.
+  (b) Give an example to show that the ``<math|\<leqslant\>>'' cannot be
+  replaced by ``<math|\<less\>>''. (c) Also show <math|<around*|(|\<alpha\>
+  \<leqslant\> \<beta\> \<wedge\> \<alpha\> \<gtr\> 0|)> \<rightarrow\>
+  \<exists\>!\<delta\>\<nocomma\>\<nocomma\>,\<zeta\><around*|(|\<zeta\>\<less\>\<alpha\>\<wedge\>\<alpha\>\<cdot\>\<delta\>+\<zeta\>=\<beta\>|)>.>>
 </body>
 
 <\initial>

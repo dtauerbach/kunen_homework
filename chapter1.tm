@@ -59,18 +59,36 @@
   <math|\<delta\>\<gtr\>0>, <math|\<beta\>+\<delta\> \<gtr\> \<beta\>>. So
   suppose <math|\<alpha\>\<less\>\<beta\>>.
 
-  Existence: [NEEDS WORK] Consider the set <math|\<beta\> - \<alpha\>> (the
-  complement) which exists by comprehension. By AC, this is well-orderable,
-  hence isomorphic to some ordinal <math|\<delta\>> under that ordering
-  <math|R>. This allows us to construct a well-ordering of the set
-  <math|\<beta\>> as <math|\<alpha\>+\<delta\>>, where the ordering on
-  <math|\<alpha\>> is the ordinary <math|\<in\>> relation, and the ordering
-  <math|R> for elements of the set <math|\<beta\>-\<alpha\>>. Thus as we've
-  constructed it, the set <math|\<alpha\>+\<delta\>> is well-ordered and has
-  the same elements as <math|\<beta\>>. [BUT WHY IS IT NECESSARILY ISOMORPHIC
-  TO <math|\<beta\>>?]
+  <with|font-series|bold|Existence>: Transfinite induction on
+  <math|\<beta\>>.
 
-  Uniqueness: Suppose <math|\<alpha\>+\<delta\><rsub|1>=><math|\<alpha\>+\<delta\><rsub|2>=\<beta\>>.
+  Base: <math|\<beta\>=0.> Then this is trivial with
+  <math|\<alpha\>=0,\<gamma\>=0>.
+
+  Successor: <math|\<beta\>=S<around*|(|\<zeta\>|)>=\<zeta\>+1>. Then by IH
+  <math|\<exists\>\<delta\><around*|(|\<alpha\>+\<delta\>=\<zeta\>|)>>. But
+  given associativity of addition, <math|\<alpha\>+<around*|(|\<delta\>+1|)>=<around*|(|\<alpha\>+\<delta\>|)>+1=\<zeta\>+1=\<beta\>>.
+  (We've already shown associativity.)\ 
+
+  Limit: <math|\<beta\>> is a limit ordinal. By IH for all
+  <math|\<zeta\>\<less\>\<beta\>\<nocomma\>,\<exists\>\<delta\><around*|(|\<alpha\>+\<delta\>=\<zeta\>|)>>.\ 
+
+  [I AM HERE]
+
+  Consider <math|\<delta\><rprime|'>=sup<around*|{|\<delta\>:
+  \<alpha\>+\<delta\>=\<zeta\>\<nocomma\>,\<zeta\>\<less\>\<beta\>|}>>. If
+  <math|\<delta\><rprime|'>> is a limit ordinal, then consider
+  <math|sup<around*|{|\<alpha\>+\<delta\>:\<delta\>\<less\>\<delta\><rprime|'>|}>>
+
+  Consider <math|sup<around*|{|\<alpha\>+\<delta\>:
+  \<delta\>\<less\>\<beta\>|}>=\<alpha\>+\<beta\>>\ 
+
+  Want <math|\<beta\>=sup<around*|(|\<lambda\>:\<lambda\>\<less\>\<beta\>|)>=\<alpha\>+\<delta\><rprime|'>>
+
+  \;
+
+  <with|font-series|bold|Uniqueness>: Suppose
+  <math|\<alpha\>+\<delta\><rsub|1>=><math|\<alpha\>+\<delta\><rsub|2>=\<beta\>>.
   Then by (a), <math|\<delta\><rsub|1>\<nless\>\<delta\><rsub|2>> and
   <math|\<delta\><rsub|2>\<nless\>\<delta\><rsub|1>>, hence
   <math|\<delta\><rsub|1>=\<delta\><rsub|2>>.

@@ -73,7 +73,7 @@
   Limit: <math|\<beta\>> is a limit ordinal. By IH for all
   <math|\<zeta\>\<less\>\<beta\>\<nocomma\>,\<exists\>\<delta\><around*|(|\<alpha\>+\<delta\>=\<zeta\>|)>>.\ 
 
-  [I AM HERE]
+  [WIP: I AM HERE]
 
   Consider <math|\<delta\><rprime|'>=sup<around*|{|\<delta\>:
   \<alpha\>+\<delta\>=\<zeta\>\<nocomma\>,\<zeta\>\<less\>\<beta\>|}>>. If
@@ -101,6 +101,12 @@
   replaced by ``<math|\<less\>>''. (c) Also show <math|<around*|(|\<alpha\>
   \<leqslant\> \<beta\> \<wedge\> \<alpha\> \<gtr\> 0|)> \<rightarrow\>
   \<exists\>!\<delta\>\<nocomma\>\<nocomma\>,\<zeta\><around*|(|\<zeta\>\<less\>\<alpha\>\<wedge\>\<alpha\>\<cdot\>\<delta\>+\<zeta\>=\<beta\>|)>.>>
+
+  SOLUTION.
+
+  (a)
+
+  (b) <math|2\<cdot\>\<omega\> =3\<cdot\>\<omega\>=\<omega\>>, for example.
 </body>
 
 <\initial>

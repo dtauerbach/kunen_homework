@@ -71,9 +71,20 @@
   (We've already shown associativity.)\ 
 
   Limit: <math|\<beta\>> is a limit ordinal. By IH for all
-  <math|\<zeta\>\<less\>\<beta\>\<nocomma\>,\<exists\>\<delta\><around*|(|\<alpha\>+\<delta\>=\<zeta\>|)>>.\ 
+  <math|\<zeta\>\<less\>\<beta\>\<nocomma\>,\<exists\>\<delta\><around*|(|\<alpha\>+\<delta\>=\<zeta\>|)>>.
+  For all such <math|\<delta\>>s, consider
+  <math|\<delta\><rprime|'>=sup<around*|(|\<delta\>|)>>.
+
+  \;
 
   [WIP: I AM HERE]
+
+  Case 1: <math|\<delta\><rprime|'>=\<delta\>> for some <math|\<delta\>>.
+  Then <math|\<delta\><rprime|'>\<less\>\<beta\>>, so
+  <math|\<alpha\>+\<delta\><rprime|'>=sup<around*|(|\<alpha\>+\<delta\><rprime|''>:
+  \<delta\><rprime|''>\<less\>\<delta\><rprime|'>|)>\<less\>>
+
+  We know that <math|\<beta\>=sup<around*|(|\<zeta\>:\<zeta\>\<less\>\<beta\>|)>>,
 
   Consider <math|\<delta\><rprime|'>=sup<around*|{|\<delta\>:
   \<alpha\>+\<delta\>=\<zeta\>\<nocomma\>,\<zeta\>\<less\>\<beta\>|}>>. If
@@ -83,7 +94,7 @@
   Consider <math|sup<around*|{|\<alpha\>+\<delta\>:
   \<delta\>\<less\>\<beta\>|}>=\<alpha\>+\<beta\>>\ 
 
-  Want <math|\<beta\>=sup<around*|(|\<lambda\>:\<lambda\>\<less\>\<beta\>|)>=\<alpha\>+\<delta\><rprime|'>>
+  Want <math|\<beta\>=sup<around*|(|\<lambda\>:\<lambda\>\<less\>\<beta\>|)>=\<alpha\>+\<delta\><rprime|'>=sup<around*|(|\<alpha\>+\<delta\><rprime|''>:\<delta\><rprime|''>\<less\>\<delta\><rprime|'>|)>>
 
   \;
 
@@ -92,6 +103,8 @@
   Then by (a), <math|\<delta\><rsub|1>\<nless\>\<delta\><rsub|2>> and
   <math|\<delta\><rsub|2>\<nless\>\<delta\><rsub|1>>, hence
   <math|\<delta\><rsub|1>=\<delta\><rsub|2>>.
+
+  \;
 
   3. <with|font-shape|italic|(a) Show that if <math|\<gamma\>\<gtr\>0>, then
   <math|\<alpha\>\<less\>\<beta\>> implies that <math|\<gamma\>\<cdot\>
@@ -104,9 +117,16 @@
 
   SOLUTION.
 
-  (a)
+  (a) (i)Suppose <math|\<alpha\>\<less\>\<beta\>>. Then
+  <math|\<less\>\<alpha\>,0\<gtr\> \<in\> \<beta\> \<times\>\<gamma\>>, but
+  this element is not in <math|\<alpha\>\<times\>\<gamma\>>, from the
+  definition of ordinal multiplication.
+
+  (ii)
 
   (b) <math|2\<cdot\>\<omega\> =3\<cdot\>\<omega\>=\<omega\>>, for example.
+
+  (c) [I AM HERE]
 </body>
 
 <\initial>

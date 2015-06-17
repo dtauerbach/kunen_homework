@@ -68,35 +68,23 @@
   Successor: <math|\<beta\>=S<around*|(|\<zeta\>|)>=\<zeta\>+1>. Then by IH
   <math|\<exists\>\<delta\><around*|(|\<alpha\>+\<delta\>=\<zeta\>|)>>. But
   given associativity of addition, <math|\<alpha\>+<around*|(|\<delta\>+1|)>=<around*|(|\<alpha\>+\<delta\>|)>+1=\<zeta\>+1=\<beta\>>.
-  (We've already shown associativity.)\ 
 
   Limit: <math|\<beta\>> is a limit ordinal. By IH for all
   <math|\<zeta\>\<less\>\<beta\>\<nocomma\>,\<exists\>\<delta\><around*|(|\<alpha\>+\<delta\>=\<zeta\>|)>>.
   For all such <math|\<delta\>>s, consider
   <math|\<delta\><rprime|'>=sup<around*|(|\<delta\>|)>>.
 
-  \;
+  Then:
 
-  [WIP: I AM HERE]
+  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <math|\<alpha\>+\<delta\><rprime|'>=
+  sup<around*|(|\<alpha\>+\<delta\>|)>> (note this is trivial is
+  <math|\<delta\>> is not a limit ordinal; else it follows by def of
+  addition, and <math|\<delta\>> as above)
 
-  Case 1: <math|\<delta\><rprime|'>=\<delta\>> for some <math|\<delta\>>.
-  Then <math|\<delta\><rprime|'>\<less\>\<beta\>>, so
-  <math|\<alpha\>+\<delta\><rprime|'>=sup<around*|(|\<alpha\>+\<delta\><rprime|''>:
-  \<delta\><rprime|''>\<less\>\<delta\><rprime|'>|)>\<less\>>
+  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <math|=
+  sup<around*|(|\<zeta\>: \<zeta\>\<less\>\<beta\>|)>>
 
-  We know that <math|\<beta\>=sup<around*|(|\<zeta\>:\<zeta\>\<less\>\<beta\>|)>>,
-
-  Consider <math|\<delta\><rprime|'>=sup<around*|{|\<delta\>:
-  \<alpha\>+\<delta\>=\<zeta\>\<nocomma\>,\<zeta\>\<less\>\<beta\>|}>>. If
-  <math|\<delta\><rprime|'>> is a limit ordinal, then consider
-  <math|sup<around*|{|\<alpha\>+\<delta\>:\<delta\>\<less\>\<delta\><rprime|'>|}>>
-
-  Consider <math|sup<around*|{|\<alpha\>+\<delta\>:
-  \<delta\>\<less\>\<beta\>|}>=\<alpha\>+\<beta\>>\ 
-
-  Want <math|\<beta\>=sup<around*|(|\<lambda\>:\<lambda\>\<less\>\<beta\>|)>=\<alpha\>+\<delta\><rprime|'>=sup<around*|(|\<alpha\>+\<delta\><rprime|''>:\<delta\><rprime|''>\<less\>\<delta\><rprime|'>|)>>
-
-  \;
+  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <math|=\<beta\>>
 
   <with|font-series|bold|Uniqueness>: Suppose
   <math|\<alpha\>+\<delta\><rsub|1>=><math|\<alpha\>+\<delta\><rsub|2>=\<beta\>>.
@@ -122,11 +110,11 @@
   this element is not in <math|\<alpha\>\<times\>\<gamma\>>, from the
   definition of ordinal multiplication.
 
-  (ii)
+  (ii) [TO BE SOLVED; SIMILAR TO (2)]
 
   (b) <math|2\<cdot\>\<omega\> =3\<cdot\>\<omega\>=\<omega\>>, for example.
 
-  (c) [I AM HERE]
+  (c) [TO BE SOLVED]
 </body>
 
 <\initial>

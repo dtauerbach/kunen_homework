@@ -115,6 +115,10 @@
   (b) <math|2\<cdot\>\<omega\> =3\<cdot\>\<omega\>=\<omega\>>, for example.
 
   (c) [TO BE SOLVED]
+
+  \;
+
+  4.
 </body>
 
 <\initial>
